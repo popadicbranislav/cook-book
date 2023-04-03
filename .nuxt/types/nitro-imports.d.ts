@@ -1,6 +1,6 @@
 declare global {
-  const __buildAssetsURL: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nuxt@3.3.3/node_modules/nuxt/dist/core/runtime/nitro/paths')['buildAssetsURL']
-  const __publicAssetsURL: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nuxt@3.3.3/node_modules/nuxt/dist/core/runtime/nitro/paths')['publicAssetsURL']
+  const __buildAssetsURL: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nuxt@3.3.3_eslint@8.37.0_typescript@5.0.3/node_modules/nuxt/dist/core/runtime/nitro/paths')['buildAssetsURL']
+  const __publicAssetsURL: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nuxt@3.3.3_eslint@8.37.0_typescript@5.0.3/node_modules/nuxt/dist/core/runtime/nitro/paths')['publicAssetsURL']
   const appendCorsHeaders: typeof import('h3')['appendCorsHeaders']
   const appendCorsPreflightHeaders: typeof import('h3')['appendCorsPreflightHeaders']
   const appendHeader: typeof import('h3')['appendHeader']
@@ -18,7 +18,7 @@ declare global {
   const createEvent: typeof import('h3')['createEvent']
   const createRouter: typeof import('h3')['createRouter']
   const defaultContentType: typeof import('h3')['defaultContentType']
-  const defineAppConfig: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nuxt@3.3.3/node_modules/nuxt/dist/core/runtime/nitro/config')['defineAppConfig']
+  const defineAppConfig: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nuxt@3.3.3_eslint@8.37.0_typescript@5.0.3/node_modules/nuxt/dist/core/runtime/nitro/config')['defineAppConfig']
   const defineCachedEventHandler: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nitropack@2.3.2/node_modules/nitropack/dist/runtime')['defineCachedEventHandler']
   const defineCachedFunction: typeof import('/Users/A62284838/c/cook-book/node_modules/.pnpm/nitropack@2.3.2/node_modules/nitropack/dist/runtime')['defineCachedFunction']
   const defineEventHandler: typeof import('h3')['defineEventHandler']
