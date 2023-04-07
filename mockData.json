@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "title": "Classic Spaghetti Carbonara",
+    "author": "Mario Batali",
+    "ingredients": [
+      "1 pound spaghetti",
+      "6 ounces pancetta or guanciale, diced",
+      "4 large egg yolks",
+      "1 cup freshly grated Pecorino Romano cheese",
+      "Freshly ground black pepper"
+    ],
+    "img_url": "https://images.unsplash.com/photo-1633337474564-1d9478ca4e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
+    "directions": [
+      "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8 minutes.",
+      "Meanwhile, in a large skillet, cook the pancetta over medium heat until crispy, about 8 minutes.",
+      "In a large bowl, whisk together the egg yolks and Pecorino Romano cheese.",
+      "When the spaghetti is done, reserve 1 cup of the cooking water, then drain the pasta and immediately add it to the skillet with the pancetta. Toss to combine.",
+      "Remove the skillet from the heat and pour in the egg mixture, tossing quickly and constantly to coat the pasta. If the mixture is too thick, add a little of the reserved cooking water to thin it out.",
+      "Season with black pepper to taste and serve immediately."
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Roasted Chicken with Lemon and Rosemary",
+    "author": "Ina Garten",
+    "ingredients": [
+      "1 (4 to 5 pound) roasting chicken",
+      "Kosher salt and freshly ground black pepper",
+      "2 lemons, quartered",
+      "1 head garlic, halved crosswise",
+      "1/4 cup olive oil",
+      "2 tablespoons chopped fresh rosemary leaves"
+    ],
+    "img_url": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80",
+    "directions": [
+      "Preheat the oven to 425 degrees F.",
+      "Remove the chicken giblets. Rinse the chicken inside and out. Remove any excess fat and leftover pin feathers and pat the outside dry. Liberally salt and pepper the inside of the chicken.",
+      "Stuff the cavity with the lemons and garlic.",
+      "Brush the outside of the chicken with the olive oil and sprinkle the chopped rosemary on top.",
+      "Roast the chicken for 1 1/2 hours, or until the juices run clear when you cut between a leg and thigh. Remove the chicken and vegetables to a platter and cover with aluminum foil for about 20 minutes.",
+      "Slice the chicken onto a platter and serve it with the vegetables."
+    ]
+  }
+]
