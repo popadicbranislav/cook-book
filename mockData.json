@@ -41,5 +41,55 @@
       "Roast the chicken for 1 1/2 hours, or until the juices run clear when you cut between a leg and thigh. Remove the chicken and vegetables to a platter and cover with aluminum foil for about 20 minutes.",
       "Slice the chicken onto a platter and serve it with the vegetables."
     ]
+  },
+  {
+    "id": "3",
+    "title": "Beef Stroganoff",
+    "author": "Julia Child",
+    "ingredients": [
+      "1 pound beef tenderloin, cut into thin strips",
+      "Kosher salt and freshly ground black pepper",
+      "2 tablespoons unsalted butter",
+      "1 onion, chopped",
+      "1/2 pound mushrooms, sliced",
+      "2 cloves garlic, minced",
+      "1/2 cup beef broth",
+      "1/2 cup sour cream",
+      "1 tablespoon Dijon mustard",
+      "Egg noodles, cooked according to package directions, for serving"
+    ],
+    "img_url": "https://images.unsplash.com/photo-1644592219048-5c070fd3c91c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1922&q=80",
+    "directions": [
+      "Season the beef with salt and pepper.",
+      "In a large skillet, melt the butter over medium-high heat. Add the beef and cook until browned, about 5 minutes. Remove the beef from the skillet and set aside.",
+      "Add the onion, mushrooms, and garlic to the skillet and cook until softened, about 5 minutes.",
+      "Add the beef broth and stir to scrape up any browned bits from the bottom of the skillet. Bring to a simmer and cook until the liquid has reduced by half, about 5 minutes.",
+      "Stir in the sour cream and mustard. Return the beef to the skillet and cook until heated through, about 2 minutes.",
+      "Serve the beef stroganoff over egg noodles."
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Grilled Shrimp Skewers",
+    "author": "Bobby Flay",
+    "ingredients": [
+      "1 pound large shrimp, peeled and deveined",
+      "2 cloves garlic, minced",
+      "2 tablespoons olive oil",
+      "1 tablespoon honey",
+      "1 tablespoon soy sauce",
+      "1 tablespoon fresh lime juice",
+      "Kosher salt and freshly ground black pepper",
+      "Bamboo skewers, soaked in water for 30 minutes"
+    ],
+    "img_url": "https://images.unsplash.com/photo-1517274885739-760f0910eefc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3570&q=80",
+    "directions": [
+      "Preheat a grill or grill pan to medium-high heat.",
+      "In a large bowl, whisk together the garlic, olive oil, honey, soy sauce, lime juice, salt, and pepper.",
+      "Add the shrimp to the bowl and toss to coat in the marinade.",
+      "Thread the shrimp onto the skewers.",
+      "Grill the skewers for 2-3 minutes per side, until the shrimp are cooked through and pink.",
+      "Serve the shrimp skewers hot off the grill."
+    ]
   }
 ]
