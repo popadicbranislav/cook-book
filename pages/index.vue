@@ -1,19 +1,28 @@
 <script setup lang="ts">
-import data from '~/mockData.json'
+import mockData from '~/mockData.json'
 import AppHeader from '~/components/AppHeader.vue'
 
 const searchQuery = ref('')
-const recipes = data
+const recipes = mockData
 
 function handleSubmit() {
   // alert(searchQuery.value)
 }
+
+const client = useSupabaseClient()
+
+const { data: testData } = useAsyncData('test', async () => {
+  return await client.from('test').select('*')
+}, {
+  transform: result => result.data,
+})
 </script>
 
 <template>
   <AppHeader />
 
   <main class="py-8">
+    {{ testData }}
     <ul class="mx-auto mb-20 flex flex-col items-center gap-8 px-2 container">
       <li
         v-for="recipe of recipes" :key="recipe.title"

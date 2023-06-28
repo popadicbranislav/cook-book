@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
+    '@nuxtjs/supabase',
   ],
   css: [
     '@unocss/reset/tailwind.css',
