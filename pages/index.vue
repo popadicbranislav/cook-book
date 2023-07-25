@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import mockData from '~/mockData.json'
-import AppHeader from '~/components/AppHeader.vue'
 
 const searchQuery = ref('')
 const recipes = mockData
@@ -19,9 +18,7 @@ const { data: testData } = useAsyncData('test', async () => {
 </script>
 
 <template>
-  <AppHeader />
-
-  <main class="mx-auto py-8 container">
+  <main class="mx-auto pb-8 container">
     <ul>
       <li
         v-for="recipe of recipes" :key="recipe.title"

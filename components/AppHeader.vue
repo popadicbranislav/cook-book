@@ -15,7 +15,7 @@
       <NuxtLink to="#" class="hover:(decoration-underline decoration-dashed)">
         Create
       </NuxtLink>
-      <NuxtLink to="#" class="ml-xl hover:(decoration-underline decoration-dashed)">
+      <NuxtLink to="login" class="ml-xl hover:(decoration-underline decoration-dashed)">
         Login
       </NuxtLink>
     </div>
