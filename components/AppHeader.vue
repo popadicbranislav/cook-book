@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const user = useSupabaseUser()
+const client = useSupabaseAuthClient()
+</script>
+
 <template>
   <header class="sticky top-0 z-9 bg-#333 text-white">
     <div
@@ -15,7 +20,13 @@
       <NuxtLink to="#" class="hover:(decoration-underline decoration-dashed)">
         Create
       </NuxtLink>
-      <NuxtLink to="login" class="ml-xl hover:(decoration-underline decoration-dashed)">
+      <button v-if="user" @click="client.auth.signOut()">
+        Logout
+      </button>
+      <div v-if="user">
+        <NuxtImg :src="user.user_metadata.avatar_url" class="rounded-full" :title="user.user_metadata.email" />
+      </div>
+      <NuxtLink v-else to="login" class="ml-xl hover:(decoration-underline decoration-dashed)">
         Login
       </NuxtLink>
     </div>

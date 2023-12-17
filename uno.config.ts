@@ -6,8 +6,10 @@ import {
 } from 'unocss'
 
 export default defineConfig({
+
   presets: [
     presetUno(),
+
     presetIcons({
       scale: 2,
       warn: true,
@@ -15,11 +17,9 @@ export default defineConfig({
         'display': 'inline-block',
         'vertical-align': 'middle',
       },
-      collections: {
-        carbon: () => import('@iconify-json/carbon/icons.json').then(i => i.default),
-      },
     }),
   ],
+
   transformers: [
     transformerVariantGroup(),
   ],
