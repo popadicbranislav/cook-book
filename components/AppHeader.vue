@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const user = useSupabaseUser()
-const client = useSupabaseAuthClient()
+const client = useSupabaseClient()
 </script>
 
 <template>
@@ -14,7 +14,9 @@ const client = useSupabaseAuthClient()
         </h1>
       </NuxtLink>
 
-      <NuxtLink to="#" class="ml-auto hover:(decoration-underline decoration-dashed)">
+      <ColorSchemeToggle class="ml-auto" />
+
+      <NuxtLink to="#" class="hover:(decoration-underline decoration-dashed)">
         About
       </NuxtLink>
       <NuxtLink to="#" class="hover:(decoration-underline decoration-dashed)">

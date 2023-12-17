@@ -1,3 +1,8 @@
+html,
 body {
-  overscroll-behavior: none;
+  --uno: bg-base font-sans;
+}
+
+.dark {
+  color-scheme: dark;
 }

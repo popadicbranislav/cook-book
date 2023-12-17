@@ -18,7 +18,7 @@ const { data: testData } = useAsyncData('test', async () => {
 </script>
 
 <template>
-  <main class="mx-auto pb-8 container">
+  <main class="mx-auto pb-8 container ">
     <ul>
       <li
         v-for="recipe of recipes" :key="recipe.title"
