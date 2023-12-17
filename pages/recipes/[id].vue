@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import data from '~/mockData.json'
-import AppHeader from '~/components/AppHeader.vue'
 
 const route = useRoute()
 const recipeId = Array.isArray(route.params.id) ? route.params.id[0] : route.params.id
@@ -12,8 +11,6 @@ if (!recipe)
 </script>
 
 <template>
-  <AppHeader />
-
   <main v-if="recipe" class="mx-auto my-8 max-w-40rem flex flex-col gap-8 px-2 container">
     <img
       :src="recipe.img_url" class="aspect-3/2 w-full"
