@@ -4,10 +4,6 @@ import mockData from '~/mockData.json'
 const searchQuery = ref('')
 const recipes = mockData
 
-function handleSubmit() {
-  // alert(searchQuery.value)
-}
-
 const client = useSupabaseClient()
 
 const { data: testData } = useAsyncData('test', async () => {
@@ -15,6 +11,10 @@ const { data: testData } = useAsyncData('test', async () => {
 }, {
   transform: result => result.data,
 })
+
+function handleSubmit() {
+  // alert(searchQuery.value)
+}
 </script>
 
 <template>

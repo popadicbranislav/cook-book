@@ -19,7 +19,7 @@ const client = useSupabaseClient()
       <NuxtLink to="#" class="hover:(decoration-underline decoration-dashed)">
         About
       </NuxtLink>
-      <NuxtLink to="#" class="hover:(decoration-underline decoration-dashed)">
+      <NuxtLink v-if="user" to="/recipes/create" class="hover:(decoration-underline decoration-dashed)">
         Create
       </NuxtLink>
       <button v-if="user" @click="client.auth.signOut()">
@@ -28,7 +28,7 @@ const client = useSupabaseClient()
       <div v-if="user">
         <NuxtImg :src="user.user_metadata.avatar_url" class="rounded-full" :title="user.user_metadata.email" />
       </div>
-      <NuxtLink v-else to="login" class="ml-xl hover:(decoration-underline decoration-dashed)">
+      <NuxtLink v-else to="/login" class="ml-xl hover:(decoration-underline decoration-dashed)">
         Login
       </NuxtLink>
     </div>

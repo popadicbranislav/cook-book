@@ -11,6 +11,6 @@ function toggleMode() {
     class="rounded p-2 hover:bg-neutral/20"
     @click="toggleMode"
   >
-    <div class="i-carbon-light dark:i-carbon-dark text-sm" />
+    <div class="i-carbon-light dark:i-carbon-moon text-sm" />
   </button>
 </template>
